@@ -971,10 +971,13 @@
           "label": "Desktop menu type",
           "info": "Menu type is automatically optimized for mobile.",
           "options__1": {
-            "label": "Dropdown"
+            "label": "Nested dropdown"
           },
           "options__2": {
             "label": "Mega menu"
+          },
+          "options__3": {
+            "label": "Associated dropdown"
           }
         },
         "show_line_separator": {
