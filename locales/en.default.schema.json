@@ -293,6 +293,44 @@
         }
       }
     },
+    "optimisation": {
+      "name": "Optimisation",
+      "settings": {
+        "paragraph_intro": {
+          "content": "Use caution when compressing as it can break page layout and functionality such as add to cart, popups and analytics."
+        },
+        "compress_scripts": {
+          "label": "Scripts"
+        },
+        "compress_html": {
+          "label": "HTML"
+        },
+        "compress_head_scripts": {
+          "label": "Compress head scripts",
+          "info": "Will compress scripts in html head"
+        },
+        "compress_footer_scripts": {
+          "label": "Compress footer scripts",
+          "info": "Will compress scripts in html footer"
+        },
+        "compress_head": {
+          "label": "Compress head html",
+          "info": "Will compress html in head"
+        },
+        "compress_header": {
+          "label": "Compress header html",
+          "info": "Will compress html in header"
+        },
+        "compress_body": {
+          "label": "Compress body html",
+          "info": "Will compress html in body content"
+        },
+        "compress_footer": {
+          "label": "Compress footer html",
+          "info": "Will compress html in footer"
+        }
+      }
+    },
     "currency_format": {
       "name": "Currency format",
       "settings": {

@@ -8,6 +8,59 @@
     "theme_support_url": "https://support.shopify.com/"
   },
   {
+    "name": "t:settings_schema.optimisation.name",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "t:settings_schema.optimisation.settings.paragraph_intro.content"
+      },
+      {
+        "type": "header",
+        "content": "t:settings_schema.optimisation.settings.compress_scripts.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "compress_head_scripts",
+        "default": false,
+        "label": "t:settings_schema.optimisation.settings.compress_head_scripts.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "compress_footer_scripts",
+        "default": false,
+        "label": "t:settings_schema.optimisation.settings.compress_footer_scripts.label"
+      },
+      {
+        "type": "header",
+        "content": "t:settings_schema.optimisation.settings.compress_html.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "compress_head",
+        "default": false,
+        "label": "t:settings_schema.optimisation.settings.compress_head.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "compress_header",
+        "default": false,
+        "label": "t:settings_schema.optimisation.settings.compress_header.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "compress_body",
+        "default": false,
+        "label": "t:settings_schema.optimisation.settings.compress_body.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "compress_footer",
+        "default": false,
+        "label": "t:settings_schema.optimisation.settings.compress_footer.label"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.colors.name",
     "settings": [
       {
