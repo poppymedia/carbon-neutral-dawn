@@ -5,6 +5,9 @@
 ._*
 .Spotlight-V100
 .Trashes
+.github
+.vscode
+dev
 ehthumbs.db
 Thumbs.db
 config.yml
