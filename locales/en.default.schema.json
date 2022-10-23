@@ -299,11 +299,21 @@
         "paragraph_intro": {
           "content": "Use caution when compressing as it can break page layout and functionality such as add to cart, popups and analytics."
         },
+        "paragraph_intro_2": {
+          "content": "Enabling critical CSS requires updating critical.css.liquid snippet."
+        },
         "compress_scripts": {
           "label": "Scripts"
         },
+        "compress_css": {
+          "label": "CSS"
+        },
         "compress_html": {
           "label": "HTML"
+        },
+        "compress_css_critical": {
+          "label": "Enable critical css",
+          "info": "Will compress above the fold css"
         },
         "compress_head_scripts": {
           "label": "Compress head scripts",

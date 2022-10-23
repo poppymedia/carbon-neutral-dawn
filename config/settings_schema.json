@@ -15,6 +15,20 @@
         "content": "t:settings_schema.optimisation.settings.paragraph_intro.content"
       },
       {
+        "type": "paragraph",
+        "content": "t:settings_schema.optimisation.settings.paragraph_intro_2.content"
+      },
+      {
+        "type": "header",
+        "content": "t:settings_schema.optimisation.settings.compress_css.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "compress_css_critical",
+        "default": false,
+        "label": "t:settings_schema.optimisation.settings.compress_css_critical.label"
+      },
+      {
         "type": "header",
         "content": "t:settings_schema.optimisation.settings.compress_scripts.label"
       },

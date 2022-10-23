@@ -51,6 +51,10 @@
       assign body_font_bold_italic = body_font_bold | font_modify: 'style', 'italic'
     %}
 
+    {%- if settings.compress_css_critical -%}
+    {% include 'critical.css'%}
+    {%- endif -%}
+
     {% style %}
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
@@ -229,7 +233,16 @@
       }
     {% endstyle %}
 
+    {%- if settings.compress_css_critical -%}
+    <link 
+        rel = "preload" 
+        href = "{{'base.css' | asset_url}}" 
+        type = "text / css" as = "style" 
+        onload = "this.onload = null; this.rel = 'stylesheet';" />
+    {% else %}
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {% endif %}
+
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
